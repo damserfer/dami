@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
-
+# - * - codificación: iso-8859-15 - * -
 import os
 from django.conf.global_settings import EMAIL_BACKEND
 from rest_auth.tests.settings import REST_FRAMEWORK
