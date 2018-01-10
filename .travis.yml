@@ -46,4 +46,4 @@ deploy:
 after_success: coverage report
 
 script:
-    - python manage.py test
+    - python ProyectoAPI/Autenticacion1718G2/manage.py test
