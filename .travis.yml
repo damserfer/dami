@@ -7,7 +7,6 @@ python:
 
 install:
     - pip install -r ProyectoAPI/Autenticacion1718G2/requirements.txt
-    - pip install coverage
 
 sudo: required
 
@@ -43,7 +42,6 @@ deploy:
   on:
     branch: master
 
-after_success: coverage report
 
 script:
     - python ProyectoAPI/Autenticacion1718G2/manage.py 
