@@ -46,4 +46,4 @@ deploy:
 after_success: coverage report
 
 script:
-    - coverage run python manage.py test
+    - python manage.py test
