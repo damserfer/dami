@@ -44,4 +44,4 @@ deploy:
 
 
 script:
-    - python ProyectoAPI/Autenticacion1718G2/manage.py 
+    - python ProyectoAPI/Autenticacion1718G2/manage.py test
