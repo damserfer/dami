@@ -107,9 +107,9 @@ DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.mysql',
     'NAME': 'autenticaciondb',
-	'USER': 'egc',
-	'PASSWORD':'egc',
-	'HOST':'db',
+	'USER': 'superuser',
+	'PASSWORD':'damian01',
+	'HOST':'127.0.0.1',
     'PORT': 3306,
     }
 }
