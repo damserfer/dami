@@ -106,10 +106,10 @@ WSGI_APPLICATION = 'Autenticacion1718G2.wsgi.application'
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'root',
-	'USER': 'egc',
+    'NAME': 'autenticacion',
+	'USER': 'auth_user',
 	'PASSWORD':'egc',
-	'HOST':'127.0.0.1',
+	'HOST':'172.18.2.2',
     'PORT': 3306,
     }
 }
