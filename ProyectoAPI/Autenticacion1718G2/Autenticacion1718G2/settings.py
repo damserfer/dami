@@ -109,7 +109,7 @@ DATABASES = {
     'NAME': 'autenticacion',
 	'USER': 'auth-user',
 	'PASSWORD':'egc',
-	'HOST':'0.0.0.0',
+	'HOST':'172.18.2.20:50020',
     'PORT': 3360,
     }
 }
